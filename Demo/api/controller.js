@@ -3,7 +3,7 @@ const {
     getEmp,
     getEmpByID
     } = require("./service");                     //Importing from service.js
-const logger = require("../logging/log");         //Importing logger from log.js        
+const logger = require("../logging/log");         //Importing logger from log.js 
 
 module.exports = {
     add: (req,res) => {
@@ -11,18 +11,22 @@ module.exports = {
         addEmp(body,(err,results) => {                    //Calling addEmp() function
             try{
                 if(err){
-                    logger.log("error","Database connection error");              //Logging error log
+                    logger.error(new Error("Database connection error"));              //Logging error log
                     throw new Error("Database connection error");
                 }
             }catch(e){
                 console.log(e);
+
+                //http logging
+                logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
                 return res.status(500).json({
                     success:0,
                     message:"Database connection error"
                 });
             }
-
-            logger.log("info","New Employee added!!");                //logging info
+            logger.info("New employe added!");
+            //http logging
+            logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
             return res.status(200).json({
                 success:1,
                 message: "Successfull!!!",
@@ -34,17 +38,21 @@ module.exports = {
         getEmp((err,results) => {
             try{
                 if(err){
-                    logger.log("error","Database connection error");              //Logging error log
+                    logger.error(new Error("Database connection error"));               //Logging error log
                     throw new Error("Database connection error");
                 }
             }catch(e){
                 console.log(e);
+                //http logging
+                logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
                 return res.status(500).json({
                     success:0,
                     message:"Database connection error"
                 });
             }
-            logger.log("info","Employee list displayed!!");             //Logging info
+            logger.info("Employee list displayed!!");             //Logging info
+            //http logging
+            logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
             return res.status(200).json({
                 success:1,
                 message: "Successfull!!",
@@ -58,11 +66,13 @@ module.exports = {
             //Handling database connection error
             try{
                 if(err){
-                    logger.log("error","Database connection error");              //Logging error log
+                    logger.error(new Error("Database connection error"));               //Logging error log
                     throw new Error("Database connection error");
                 }
             }catch(e){
                 console.log(e);
+                //http logging
+                logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
                 return res.status(500).json({
                     success:0,
                     message:"Database connection error"
@@ -71,7 +81,9 @@ module.exports = {
             //Handling employee not found error
             try{
                 if(results.length > 0){
-                    logger.log("info","Employee found and displayed!!");           //logging info
+                    logger.info("Employee found and displayed!!");           //logging info
+                   // winston.info("Employee found and displayed!!");
+                    logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
                     return res.status(200).json({
                         success:1,
                         message: "Successfull!!!",
@@ -79,11 +91,14 @@ module.exports = {
                     })
                 }
                 else {
-                    logger.log("error","Employee doesn't exist!!!");                 //logging error in error.log
                     throw new Error("Employee doesn't exist!!!");
                 }
             }catch(e){
                 console.log(e);
+                logger.error(new Error("Employee doesn't exist"));               //logging error in error.log
+                //winston.error(e);
+                //http logging
+                logger.http({"host":req.headers.host,"ip":req.ip,"params":req.params,"path":req.path,"method":req.method});
                 return res.status(500).json({
                     success:1,
                     message:"Employee doesn't exists!!"
