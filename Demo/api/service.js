@@ -1,42 +1,59 @@
 const pool = require("../config/database");                 //Getting db connectivity from database.js
 
 module.exports = {
-    addEmp: (data,callback) => {
-        pool.query(                                  //Writing mysql query
-            'insert into emp values(?,?)',
+   
+    addEmp: (data) => {
+        return new Promise((resolve,reject)=>{
+            pool.query(                                  //Writing mysql query
+                'insert into emp values(?,?)',
+                [
+                    data.empId,
+                    data.empName
+                ],
+                (error,results) => {
+                    if(error){
+                        reject(error);
+                    }
+                    resolve(results);
+                }
+            );
+        })
+    },
+    getEmp: () => {
+        return new Promise((resolve,reject)=>{
+            pool.query('select * from emp',                       //Writing mysql query
+            [],
+            (error,results) => {
+                if(error){
+                    reject(error);
+                }
+                resolve(results);
+            });
+        })
+    },
+    getEmpByID: (id) => {
+        return new Promise((resolve,reject)=>{
+            pool.query('select * from emp where empId=?',          //Writing mysql query
             [
-                data.empId,
-                data.empName
+                id
             ],
             (error,results) => {
                 if(error){
-                    callback(error);
+                    reject(new Error('Database connection error'));
                 }
-                return callback(null,results);
+                resolve(results);
             }
-        );
+            );
+        })
     },
-    getEmp: callback => {
-        pool.query('select * from emp',                       //Writing mysql query
-        [],
-        (error,results) => {
-            if(error){
-                callback(error);
+    checkResultLength: (results) => {
+        return new Promise((resolve,reject)=> {
+            if(results.length > 0){
+                resolve(results);
             }
-            return callback(null,results);
+            else {
+                reject(new Error("Employee doesn't exist!!"));
+            }
         });
-    },
-    getEmpByID: (id,callback) => {
-        pool.query('select * from emp where empId=?',          //Writing mysql query
-        [
-            id
-        ],
-        (error,results) => {
-            if(error){
-                callback(error);
-            }
-            return callback(null,results);
-        }
-        );
     }
 };
