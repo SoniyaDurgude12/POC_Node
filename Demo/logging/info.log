@@ -21,3 +21,236 @@
 {"message":"Employee found and displayed!!","level":"info"}
 {"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:62:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:67:32\n    at new Promise (<anonymous>)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:62:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+${ info.message.toUpperCase }
+function toUpperCase() { [native code] }
+EMPLOYEE LIST DISPLAYED!!
+EMPLOYEE LIST DISPLAYED!!,INFO }
+[object Object],[object Object] }
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:55:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:50:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:59:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee updated!!","level":"info"}
+{"message":"Employee updated!!","level":"info"}
+{"message":"Employee updated!!","level":"info"}
+{"level":"error","message":"Employee doesn't exists cannot update!!","stack":"Error: Employee doesn't exists cannot update!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:83:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:81:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:99:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee updated!!","level":"info"}
+{"level":"error","message":"Employee doesn't exists cannot update or delete!!","stack":"Error: Employee doesn't exists cannot update or delete!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:94:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:92:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:139:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee deleted!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"New Employee added!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee updated!!","level":"info"}
+{"level":"error","message":"Employee doesn't exists cannot update or delete!!","stack":"Error: Employee doesn't exists cannot update or delete!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:94:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:92:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:101:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee updated!!","level":"info"}
+{"level":"error","message":"Employee doesn't exists cannot update or delete!!","stack":"Error: Employee doesn't exists cannot update or delete!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:94:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:92:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:101:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee updated!!","level":"info"}
+{"message":"Employee deleted!!","level":"info"}
+{"message":"Employee deleted!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exists cannot update or delete!!","stack":"Error: Employee doesn't exists cannot update or delete!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:94:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:92:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:139:24\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}

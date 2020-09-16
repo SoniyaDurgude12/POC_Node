@@ -2,7 +2,9 @@ const router = require("express").Router();
 const { 
     add,
     getEmployee,
-    getEmployeeById
+    getEmployeeById,
+    updateEmployeeById,
+    deleteEmployeeById
     } = require("./controller");
 
 router.post("/addEmployee",function(req,res){                   //Defining api
@@ -11,8 +13,14 @@ router.post("/addEmployee",function(req,res){                   //Defining api
 router.get("/getEmployee",function(req,res){
     getEmployee(req,res);
 });
-router.get("/getEmployeeById/:id",function(id,req,res){
-    getEmployeeById(id,req,res);
+router.get("/getEmployeeById/:id",function(req,res){
+    getEmployeeById(req,res);
+});
+router.put("/updateEmployeeById",function(req,res){
+    updateEmployeeById(req,res);
+});
+router.delete("/deleteEmployeeById/:id",function(req,res){
+    deleteEmployeeById(req,res);
 });
 
 module.exports = router;
