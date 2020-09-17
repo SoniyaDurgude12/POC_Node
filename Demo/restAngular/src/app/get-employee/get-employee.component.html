@@ -1,0 +1,14 @@
+<h2>Employee List</h2>
+<br>
+<table class="table table-bordered">
+    <thead>
+      <th>Emp Id</th>
+      <th>Emp Name</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp1 of listOfEmployees">
+        <td>{{ emp1.empId }}</td>
+        <td>{{ emp1.empName }}</td>
+      </tr>
+    </tbody>
+  </table>

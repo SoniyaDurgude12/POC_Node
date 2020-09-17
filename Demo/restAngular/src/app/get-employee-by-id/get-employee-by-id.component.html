@@ -1,0 +1,11 @@
+<form [formGroup]="getEmpForm" (ngSubmit)="getEmp()">
+    <br><br>
+    <label>
+        Employee Id:
+        <input type="text" formControlName="empId">
+    </label>
+        
+    <br><br>
+    <button type="submit">Display Employee</button>
+      
+</form>

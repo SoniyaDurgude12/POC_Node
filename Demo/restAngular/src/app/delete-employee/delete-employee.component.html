@@ -1,0 +1,11 @@
+<form [formGroup]="deleteEmpForm" (ngSubmit)="deleteEmp()">
+        <br><br>
+        <label>
+            Employee Id:
+            <input type="text" formControlName="empId">
+        </label>
+            
+        <br><br>
+        <button type="submit">Delete Employee</button>
+          
+</form>

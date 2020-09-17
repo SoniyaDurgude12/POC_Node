@@ -1,0 +1,18 @@
+<form [formGroup]="updateEmpForm" (ngSubmit)="updateEmp()">
+        <br><br>
+        <label>
+            Employee Id:
+            <input type="text" formControlName="empId">
+        </label>
+            
+        <br><br>
+
+        <label>
+            Employee Name:
+            <input type="text" formControlName="empName">
+        </label>
+
+        <br><br>
+        <button type="submit">Update Employee</button>
+          
+</form>
