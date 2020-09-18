@@ -1,8 +1,18 @@
 <h2>{{ title }}</h2>
-<a routerLink="addEmp">Add Employee</a> &nbsp;
+<a *ngIf="authService.isLoggedOut()" routerLink="register">Register User</a>&nbsp;
+
+<a *ngIf="authService.isLoggedOut()" routerLink="login">Login User</a>&nbsp;
+
+<a routerLink="addEmp">Add Employee</a>&nbsp;
+
 <a routerLink="getEmployees">Get Employees</a>&nbsp;
+
 <a routerLink="getEmployeeById">Get Employee By Id</a>&nbsp;
+
 <a routerLink="updateEmployee">Update Employee</a>&nbsp;
-<a routerLink="deleteEmployee">Delete Employee</a>
+
+<a routerLink="deleteEmployee">Delete Employee</a>&nbsp;
+
+<a (click)="authService.logout()">Logout</a>
 
 <router-outlet></router-outlet>

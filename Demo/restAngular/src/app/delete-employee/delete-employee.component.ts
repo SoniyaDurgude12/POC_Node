@@ -26,10 +26,14 @@ export class DeleteEmployeeComponent implements OnInit {
     this.service.deleteEmployee(id).subscribe(
       (data)=>{
         alert(data['message']);
-      },(error)=>{
-        console.log(error['error']['message']);
-         alert(error['error']['message']);
+      },(error)=>
+      {
+        if (error.status === 401){
+          alert('You are not authorized to visit this route.  No data is displayed.');
         }
+        console.log(error['error']['message']);
+        alert(error['error']['message']);
+      }
     );
   }
 

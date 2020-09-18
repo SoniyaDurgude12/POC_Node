@@ -30,10 +30,14 @@ export class GetEmployeeByIdComponent implements OnInit {
       (data)=>{
         this.emp = data["data"][0];
         alert("Employee : "+this.emp.empId+" "+this.emp.empName);
-     },(error)=>{
-      console.log(error['error']['message']);
-       alert(error['error']['message']);
+     },(error)=>
+     {
+      if (error.status === 401){
+        alert('You are not authorized to visit this route.  No data is displayed.');
       }
+      console.log(error['error']['message']);
+      alert(error['error']['message']);
+    }
     );
   }
 

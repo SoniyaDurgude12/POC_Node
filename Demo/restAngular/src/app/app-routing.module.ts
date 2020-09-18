@@ -6,8 +6,18 @@ import { AppComponent } from './app.component';
 import { GetEmployeeByIdComponent } from './get-employee-by-id/get-employee-by-id.component';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { DeleteEmployeeComponent } from './delete-employee/delete-employee.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
+  {
+    path:"register",
+    component:RegisterComponent
+  },
+  {
+    path:"login",
+    component:LoginComponent
+  },
   {
     path:'addEmp',
     component:AddEmployeeComponent

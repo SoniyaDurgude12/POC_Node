@@ -11,7 +11,7 @@ app.use(passport.initialize());
 app.use("/api",route);
 
 //todo  use env varaible for port
-const port = process.env.PORT;
+const port = process.env.APP_PORT || 3000;
 
 
 app.listen(port,() => {

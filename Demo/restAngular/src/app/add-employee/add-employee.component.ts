@@ -30,6 +30,10 @@ export class AddEmployeeComponent implements OnInit {
     this.service.addEmployee(this.emp).subscribe(
       (data)=>{
         alert(data['message']);
+      },(error)=>{
+        if (error.status === 401){
+          alert('You are not authorized to visit this route.  No data is displayed.');
+        }
       }
     );
   }

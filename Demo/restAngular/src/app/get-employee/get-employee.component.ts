@@ -18,6 +18,16 @@ export class GetEmployeeComponent implements OnInit {
     this.service.getEmployee().subscribe(
       (data)=>{
         this.listOfEmployees = data['results'];
+      },
+      (error) => {
+        if (error.status === 401){
+          alert('You are not authorized to visit this route.  No data is displayed.');
+        }
+        console.log(error);
+      }, 
+
+      () => {
+        console.log('HTTP request done');
       }
     );
   }
