@@ -111,7 +111,7 @@ module.exports = {
                 .catch(
                     (e)=> {
                         logger.error(e);
-                        return res.status(200).json({
+                        return res.status(500).json({
                             success:1,
                             message:"Employee doesn't exists cannot update!!"
                         });
@@ -149,7 +149,7 @@ module.exports = {
                 .catch(
                     (e)=> {
                         logger.error(e);
-                        return res.status(200).json({
+                        return res.status(500).json({
                             success:1,
                             message:"Employee doesn't exists cannot delete!!"
                         });
