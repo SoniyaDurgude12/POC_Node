@@ -10,7 +10,6 @@ const {
 const logger = require("../logging/log");         //Importing logger from log.js        
 
 module.exports = {
-    //adding emoloyees
     add: (req,res) => {
         const body = req.body;
         return addEmp(body)
