@@ -364,3 +364,12 @@ EMPLOYEE LIST DISPLAYED!!,INFO }
 {"level":"error","message":"Employee doesn't exists cannot update or delete!!","stack":"Error: Employee doesn't exists cannot update or delete!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:94:24\n    at new Promise (<anonymous>)\n    at checkEmpExist (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:92:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:139:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"message":"Employee list displayed!!","level":"info"}
 {"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
+{"level":"error","message":"Employee doesn't exist!!","stack":"Error: Employee doesn't exist!!\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:65:24\n    at new Promise (<anonymous>)\n    at checkResultLength (C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\service.js:60:16)\n    at C:\\Users\\soniya_durgude\\Desktop\\POC\\POC_Node\\Demo\\api\\controller.js:65:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Employee list displayed!!","level":"info"}
+{"message":"Employee found and displayed!!","level":"info"}
+{"message":"Employee list displayed!!","level":"info"}
