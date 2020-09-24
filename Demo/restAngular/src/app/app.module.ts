@@ -15,6 +15,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthService } from './Services/auth.service';
 import { AuthInterceptor } from './interceptors/auth-interceptor';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { AuthInterceptor } from './interceptors/auth-interceptor';
     UpdateEmployeeComponent,
     DeleteEmployeeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    NotFoundComponentComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

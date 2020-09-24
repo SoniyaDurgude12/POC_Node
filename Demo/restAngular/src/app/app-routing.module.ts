@@ -8,6 +8,8 @@ import { UpdateEmployeeComponent } from './update-employee/update-employee.compo
 import { DeleteEmployeeComponent } from './delete-employee/delete-employee.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   {
@@ -37,6 +39,18 @@ const routes: Routes = [
   {
     path:'deleteEmployee',
     component:DeleteEmployeeComponent
+  },
+  {
+    path:"internalError",
+    component:ErrorComponent
+  },
+  {
+    path:'404',
+    component:NotFoundComponentComponent
+  },
+  {
+    path: '**', 
+    redirectTo: '/404'
   }
 ];
 
