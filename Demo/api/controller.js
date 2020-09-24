@@ -10,7 +10,6 @@ const {
 const logger = require("../logging/log");         //Importing logger from log.js        
 
 module.exports = {
-    //adding emoloyees
     add: (req,res) => {
         const body = req.body;
         return addEmp(body)
@@ -111,7 +110,7 @@ module.exports = {
                 .catch(
                     (e)=> {
                         logger.error(e);
-                        return res.status(200).json({
+                        return res.status(500).json({
                             success:1,
                             message:"Employee doesn't exists cannot update!!"
                         });
@@ -149,7 +148,7 @@ module.exports = {
                 .catch(
                     (e)=> {
                         logger.error(e);
-                        return res.status(200).json({
+                        return res.status(500).json({
                             success:1,
                             message:"Employee doesn't exists cannot delete!!"
                         });
