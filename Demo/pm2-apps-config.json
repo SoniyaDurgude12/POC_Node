@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "Postman",
+
+            "script": "app.js",
+            
+            "instances"  : 2
+        }
+    ]
+}
