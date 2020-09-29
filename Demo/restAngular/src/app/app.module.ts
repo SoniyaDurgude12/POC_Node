@@ -17,6 +17,7 @@ import { AuthService } from './Services/auth.service';
 import { AuthInterceptor } from './interceptors/auth-interceptor';
 import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 import { ErrorComponent } from './error/error.component';
+import { StudentModule } from './student/student.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ErrorComponent } from './error/error.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    StudentModule
   ],
   providers: [RestApiService,AuthService,{
     provide: HTTP_INTERCEPTORS,

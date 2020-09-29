@@ -19,7 +19,7 @@ export class AddEmployeeComponent implements OnInit {
   emp = new employee();
   constructor(private service:RestApiService,private router:Router) 
   {
-
+    
   }
 
   ngOnInit(): void {

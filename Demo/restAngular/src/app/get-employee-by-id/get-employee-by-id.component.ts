@@ -18,7 +18,7 @@ export class GetEmployeeByIdComponent implements OnInit {
   });
 
   constructor(private service:RestApiService,private router:Router) {
-
+    
   }
 
   ngOnInit(): void {

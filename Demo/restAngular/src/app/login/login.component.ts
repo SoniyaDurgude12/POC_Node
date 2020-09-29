@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
 
   user = new User();
   constructor(private service:RestApiService,private authService:AuthService,private router:Router) {
-
+    
   }
 
   ngOnInit(): void {

@@ -17,7 +17,7 @@ export class RegisterComponent implements OnInit {
 
   user =  new User();
   constructor(private service:RestApiService) {
-
+    
   }
 
   ngOnInit(): void {

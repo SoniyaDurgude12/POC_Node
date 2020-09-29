@@ -15,7 +15,7 @@ export class DeleteEmployeeComponent implements OnInit {
     empId: new FormControl('')
   });
   constructor(private service:RestApiService,private router:Router) { 
-
+    
   }
 
   ngOnInit(): void {

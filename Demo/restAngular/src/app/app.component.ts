@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'Welcome';
 
   constructor(public authService:AuthService){
-
+    console.log("App module loaded!!");
   }
 }

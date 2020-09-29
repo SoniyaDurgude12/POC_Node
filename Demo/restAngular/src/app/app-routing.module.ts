@@ -10,6 +10,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 import { ErrorComponent } from './error/error.component';
+import { StudentComponent } from './student/student/student.component';
+import { StudentLazyLoadingComponent } from './student-lazy-loading/student-lazy-loading/student-lazy-loading.component';
 
 const routes: Routes = [
   {
@@ -43,6 +45,14 @@ const routes: Routes = [
   {
     path:"internalError",
     component:ErrorComponent
+  },
+  {
+    path:'student',
+    component:StudentComponent
+  },
+  {
+    path:'studentLazyLoading',
+    loadChildren:'./student-lazy-loading/student-lazy-loading.module#StudentLazyLoadingModule'
   },
   {
     path:'404',

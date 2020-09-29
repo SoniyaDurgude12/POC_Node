@@ -12,7 +12,7 @@ export class GetEmployeeComponent implements OnInit {
 
   listOfEmployees:employee[];
   constructor(private service:RestApiService,private router:Router) {
-
+    
   }
 
   ngOnInit(): void {

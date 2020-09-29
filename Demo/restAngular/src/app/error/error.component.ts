@@ -11,6 +11,7 @@ export class ErrorComponent implements OnInit {
   errorMessage:string;
   message:string;
   constructor(private router:Router) {
+
     const navigation = this.router.getCurrentNavigation();
     const state = navigation.extras.state as {data: string};
     const state1 = navigation.extras.state as {errorMessage: string};

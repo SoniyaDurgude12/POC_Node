@@ -19,7 +19,7 @@ export class UpdateEmployeeComponent implements OnInit {
   });
 
   constructor(private service:RestApiService,private router:Router) { 
-
+    
   }
 
   ngOnInit(): void {
